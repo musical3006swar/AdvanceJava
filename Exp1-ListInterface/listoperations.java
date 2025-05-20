@@ -1,118 +1,134 @@
-/*1.a Develop a Java program for adding elements [Apple, Banana, Orange] into an ArrayList
-and a LinkedList to perform the following operations with different functions directed as
-follows
-1. Adding elements, 2. Adding element at specific index, 3. Adding multiple elements, 4.
-Accessing elements,5. Updating elements, 6. Removing elements, 7. Searching elements, 8. List
-size, 9. Iterating over list, 10. Using Iterator, 11. Sorting, 12. Sublist, 13. Clearing the list */
+//Q1.a: Develop a Java program for adding elements [Apple, Banana, Orange] into an ArrayList
+//and a LinkedList to perform the following operations:
+//1. Adding elements, 2. Adding element at specific index, 3. Adding multiple elements,
+//4. Accessing elements, 5. Updating elements, 6. Removing elements, 7. Searching elements,
+//8. List size, 9. Iterating over list, 10. Using Iterator, 11. Sorting, 12. Sublist, 13. Clearing the list
 
+package ListOperation;
 
-package list_Operation;
 import java.util.*;
 
-public class listoperations {
+public class ListOperations {
+ public static void main(String[] args) {
+     // Initial elements
+     List<String> initialFruits = Arrays.asList("Apple", "Banana", "Orange");
 
-    public static void main(String[] args) {
-        // 1. Create ArrayList and LinkedList
-        List<String> arrayList = new ArrayList<>();
-        List<String> linkedList = new LinkedList<>();
+     // Using ArrayList
+     System.out.println("=== ArrayList Operations ===");
+     List<String> arrayList = new ArrayList<>(initialFruits);
 
-        // Elements to add
-        List<String> initialFruits = Arrays.asList("Apple", "Banana", "Orange");
+     // 1. Add element
+     arrayList.add("Grapes");
+     System.out.println("After adding: " + arrayList);
 
-        // 1. Adding elements
-        arrayList.addAll(initialFruits);
-        linkedList.addAll(initialFruits);
-        System.out.println("1. Initial ArrayList: " + arrayList);
-        System.out.println("   Initial LinkedList: " + linkedList);
+     // 2. Add element at specific index
+     arrayList.add(1, "Pineapple");
+     System.out.println("After adding at index 1: " + arrayList);
 
-        // 2. Adding element at specific index
-        arrayList.add(1, "Mango");
-        linkedList.add(1, "Mango");
-        System.out.println("\n2. After adding 'Mango' at index 1:");
-        System.out.println("   ArrayList: " + arrayList);
-        System.out.println("   LinkedList: " + linkedList);
+     // 3. Add multiple elements
+     arrayList.addAll(Arrays.asList("Mango", "Papaya"));
+     System.out.println("After adding multiple: " + arrayList);
 
-        // 3. Adding multiple elements
-        List<String> moreFruits = Arrays.asList("Grapes", "Pineapple");
-        arrayList.addAll(moreFruits);
-        linkedList.addAll(moreFruits);
-        System.out.println("\n3. After adding more fruits:");
-        System.out.println("   ArrayList: " + arrayList);
-        System.out.println("   LinkedList: " + linkedList);
+     // 4. Accessing elements
+     System.out.println("Element at index 2: " + arrayList.get(2));
 
-        // 4. Accessing elements
-        System.out.println("\n4. Accessing element at index 2:");
-        System.out.println("   ArrayList: " + arrayList.get(2));
-        System.out.println("   LinkedList: " + linkedList.get(2));
+     // 5. Updating elements
+     arrayList.set(2, "Strawberry");
+     System.out.println("After update at index 2: " + arrayList);
 
-        // 5. Updating elements
-        arrayList.set(2, "Kiwi");
-        linkedList.set(2, "Kiwi");
-        System.out.println("\n5. After updating index 2 to 'Kiwi':");
-        System.out.println("   ArrayList: " + arrayList);
-        System.out.println("   LinkedList: " + linkedList);
+     // 6. Removing elements
+     arrayList.remove("Papaya");
+     arrayList.remove(0); // Remove first
+     System.out.println("After removal: " + arrayList);
 
-        // 6. Removing elements
-        arrayList.remove("Banana");
-        linkedList.remove("Banana");
-        System.out.println("\n6. After removing 'Banana':");
-        System.out.println("   ArrayList: " + arrayList);
-        System.out.println("   LinkedList: " + linkedList);
+     // 7. Searching elements
+     System.out.println("Contains Mango? " + arrayList.contains("Mango"));
 
-        // 7. Searching elements
-        System.out.println("\n7. Searching for 'Orange':");
-        System.out.println("   Found in ArrayList? " + arrayList.contains("Orange"));
-        System.out.println("   Found in LinkedList? " + linkedList.contains("Orange"));
+     // 8. List size
+     System.out.println("List size: " + arrayList.size());
 
-        // 8. List size
-        System.out.println("\n8. Size of lists:");
-        System.out.println("   ArrayList size: " + arrayList.size());
-        System.out.println("   LinkedList size: " + linkedList.size());
+     // 9. Iterating over list (for-each)
+     System.out.println("Iterating using for-each:");
+     for (String fruit : arrayList) {
+         System.out.println(fruit);
+     }
 
-        // 9. Iterating over list (for-each loop)
-        System.out.println("\n9. Iterating using for-each:");
-        System.out.print("   ArrayList: ");
-        for (String fruit : arrayList) {
-            System.out.print(fruit + " ");
-        }
-        System.out.print("\n   LinkedList: ");
-        for (String fruit : linkedList) {
-            System.out.print(fruit + " ");
-        }
+     // 10. Using Iterator
+     System.out.println("Iterating using Iterator:");
+     Iterator<String> iterator1 = arrayList.iterator();
+     while (iterator1.hasNext()) {
+         System.out.println(iterator1.next());
+     }
 
-        // 10. Using Iterator
-        System.out.println("\n\n10. Iterating using Iterator:");
-        Iterator<String> arrayIterator = arrayList.iterator();
-        System.out.print("   ArrayList: ");
-        while (arrayIterator.hasNext()) {
-            System.out.print(arrayIterator.next() + " ");
-        }
+     // 11. Sorting
+     Collections.sort(arrayList);
+     System.out.println("Sorted list: " + arrayList);
 
-        Iterator<String> linkedIterator = linkedList.iterator();
-        System.out.print("\n   LinkedList: ");
-        while (linkedIterator.hasNext()) {
-            System.out.print(linkedIterator.next() + " ");
-        }
+     // 12. Sublist
+     List<String> subArrayList = arrayList.subList(0, 2);
+     System.out.println("Sublist (0 to 2): " + subArrayList);
 
-        // 11. Sorting
-        Collections.sort(arrayList);
-        Collections.sort(linkedList);
-        System.out.println("\n\n11. After sorting:");
-        System.out.println("   ArrayList: " + arrayList);
-        System.out.println("   LinkedList: " + linkedList);
+     // 13. Clearing the list
+     arrayList.clear();
+     System.out.println("After clearing: " + arrayList);
 
-        // 12. Sublist
-        List<String> arraySubList = arrayList.subList(1, 3);
-        List<String> linkedSubList = linkedList.subList(1, 3);
-        System.out.println("\n12. Sublist from index 1 to 3 (exclusive):");
-        System.out.println("   ArrayList sublist: " + arraySubList);
-        System.out.println("   LinkedList sublist: " + linkedSubList);
+     // Using LinkedList
+     System.out.println("\n=== LinkedList Operations ===");
+     LinkedList<String> linkedList = new LinkedList<>(initialFruits);
 
-        // 13. Clearing the list
-        arrayList.clear();
-        linkedList.clear();
-        System.out.println("\n13. After clearing both lists:");
-        System.out.println("   ArrayList: " + arrayList);
-        System.out.println("   LinkedList: " + linkedList);
-    }
+     // 1. Add element
+     linkedList.add("Grapes");
+     System.out.println("After adding: " + linkedList);
+
+     // 2. Add element at specific index
+     linkedList.add(1, "Pineapple");
+     System.out.println("After adding at index 1: " + linkedList);
+
+     // 3. Add multiple elements
+     linkedList.addAll(Arrays.asList("Mango", "Papaya"));
+     System.out.println("After adding multiple: " + linkedList);
+
+     // 4. Accessing elements
+     System.out.println("Element at index 2: " + linkedList.get(2));
+
+     // 5. Updating elements
+     linkedList.set(2, "Strawberry");
+     System.out.println("After update at index 2: " + linkedList);
+
+     // 6. Removing elements
+     linkedList.remove("Papaya");
+     linkedList.remove(0); // Remove first
+     System.out.println("After removal: " + linkedList);
+
+     // 7. Searching elements
+     System.out.println("Contains Mango? " + linkedList.contains("Mango"));
+
+     // 8. List size
+     System.out.println("List size: " + linkedList.size());
+
+     // 9. Iterating over list (for-each)
+     System.out.println("Iterating using for-each:");
+     for (String fruit : linkedList) {
+         System.out.println(fruit);
+     }
+
+     // 10. Using Iterator
+     System.out.println("Iterating using Iterator:");
+     Iterator<String> iterator2 = linkedList.iterator();
+     while (iterator2.hasNext()) {
+         System.out.println(iterator2.next());
+     }
+
+     // 11. Sorting
+     Collections.sort(linkedList);
+     System.out.println("Sorted list: " + linkedList);
+
+     // 12. Sublist
+     List<String> subLinkedList = linkedList.subList(0, 2);
+     System.out.println("Sublist (0 to 2): " + subLinkedList);
+
+     // 13. Clearing the list
+     linkedList.clear();
+     System.out.println("After clearing: " + linkedList);
+ }
 }
