@@ -4,3 +4,10 @@
    🔗 [Output Screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp1-ListInterface/Screenshot%202025-05-21%20002205.png)
    🔗 [Output Screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp1-ListInterface/Screenshot%202025-05-21%20002214.png)
 ---
+
+### 1b.  Array List programs
+
+1. Write a java program for getting different colors through ArrayList interface and search whether the color "Red" is available or not
+   🔗 [Output Screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp1-ListInterface/Screenshot%202025-05-21%20002810.png)
+
+
