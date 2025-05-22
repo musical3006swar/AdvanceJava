@@ -8,7 +8,7 @@ package ListOperation;
 
 import java.util.*;
 
-public class ListOperations {
+public class listoperations {
  public static void main(String[] args) {
      // Initial elements
      List<String> initialFruits = Arrays.asList("Apple", "Banana", "Orange");
