@@ -1,9 +1,7 @@
 // Java Program for Reversing the characters in a string using user-defined function reverseString()
 
 package string_operations;
-
 import java.util.Scanner;
-
 public class ReverseCharacterString {
     // User-defined function to reverse a string
     public static String reverseString(String input) {
