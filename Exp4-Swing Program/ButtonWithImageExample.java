@@ -20,7 +20,7 @@ public class ButtonWithImageExample extends JFrame {
         setLayout(new FlowLayout());
 
         // Load images (replace with your image paths or URLs)
-        ImageIcon digitalClockIcon = new ImageIcon("C:\\Users\\Gagan\\Desktop\\digital_clock.png");
+        ImageIcon digitalClockIcon = new ImageIcon("C:\\Users\\\\Desktop\\digital_clock.png");
         ImageIcon hourGlassIcon = new ImageIcon("C:\\Users\\Gagan\\Desktop\\hourglass.png");
 
         // Create buttons with images
