@@ -62,15 +62,15 @@ Total Programs:28
 
 ### 3b.String Exercise programs
 
-1.NullorWhitespaceCheck ->[output screenshot](https://github.com/SurajKulal1/AdvancedJava/blob/main/Exp3-String%20Programs/NullOrWhiteSpaceCheck.png)
+1.NullorWhitespaceCheck ->[output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp3-String%20Programs./isNullOrEmpty.png)
 
-2.SubstringCount ->[output screenshot](https://github.com/SurajKulal1/AdvancedJava/blob/main/Exp3-String%20Programs/SubstringAppears.png)
+2.SubstringCount ->[output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp3-String%20Programs./WordCount.png)
 
-3.ReverseString ->[output screenshot](https://github.com/SurajKulal1/AdvancedJava/blob/main/Exp3-String%20Programs/ReverseString.png)
+3.ReverseString ->[output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp3-String%20Programs./ReverseCharacterString.png)
 
-4.PalindromeChecker ->[output screenshot](https://github.com/SurajKulal1/AdvancedJava/blob/main/Exp3-String%20Programs/CheckPalindrome.png)
+4.PalindromeChecker ->[output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp3-String%20Programs./CheckPalindrome.png)
 
-5.RemoveWhitespace ->[output screenshot](https://github.com/SurajKulal1/AdvancedJava/blob/main/Exp3-String%20Programs/RemoveWhitespace.png)
+5.RemoveWhitespace ->[output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp3-String%20Programs./RemoveWhitespace.png)
 
 ### 3c.String Exercise Programs
 
@@ -87,27 +87,27 @@ Total Programs:28
 ---
 
 ### 4a.SwingExample 
-->[output screenshot](https://github.com/SurajKulal1/AdvancedJava/blob/main/Exp4-Swing%20Program/SwingExample.png)
+->[output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp4-Swing%20Program/SwingExample.png)
 
 ### 4b.ButtonExample 
-->[output screenshot](https://github.com/SurajKulal1/AdvancedJava/blob/main/Exp4-Swing%20Program/ButtonExample.png)
+->[output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp4-Swing%20Program/ButtonExample.png)
 
 ### 4c.ButtonWithImageExample 
-->[output screenshot](https://github.com/SurajKulal1/AdvancedJava/blob/main/Exp4-Swing%20Program/ButtonWithImage.png)
+->[output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp4-Swing%20Program/ButtonWithImageExamples.jpg)
 
 ---
 
 ### 5a.JListExample 
-->[output screenshot](https://github.com/SurajKulal1/AdvancedJava/blob/main/Exp5-Swing%20Program/JListExample.png)
+->[output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp5-Swing%20Programs/JListExample.png)
 
 ### 5b.TabbedPaneExample 
-->[output screenshot](https://github.com/SurajKulal1/AdvancedJava/blob/main/Exp5-Swing%20Program/TabbedPaneExample.png)
+->[output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp5-Swing%20Programs/TabbedPaneExample.png)
 
 ### 5c.CountryCapitalList 
-->[output screenshot](https://github.com/SurajKulal1/AdvancedJava/blob/main/Exp5-Swing%20Program/CountryCapitalList.png)
+->[output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp5-Swing%20Programs/CountryCapitalList.png)
 
 ### 5d.ColorTabbedPane 
-->[output screenshot](https://github.com/SurajKulal1/AdvancedJava/blob/main/Exp5-Swing%20Program/ColorTabbedPane.png)
+->[output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp5-Swing%20Programs/ColorTabbedPane.png)
 
 ---
 
