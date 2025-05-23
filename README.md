@@ -112,67 +112,66 @@ Total Programs:28
 ---
 
 ### 6a.FactorialCalculatorDemo 
-->[output screenshot](https://github.com/Gagan-rao-44/Advanced-Java/blob/main/Servlet%20Programs/FactorialCalculatorDemo1.png)
-
-  [output screenshot](https://github.com/Gagan-rao-44/Advanced-Java/blob/main/Servlet%20Programs/FactorialCalculatorDemo2.png)
+->[output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp6-Servlet%20Programs/FactorialCalculatorDemo1.png)
+  [output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp6-Servlet%20Programs/FactorialCalculatorDemo2.png)
 
 ### 6b.Cookieservlet 
-->[output screenshot](https://github.com/Gagan-rao-44/Advanced-Java/blob/main/Servlet%20Programs/CookieServlet/cookieservlet1.png)
+->[output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp6-Servlet%20Programs/CookieServlet/cookieservlet1.jpg)
 
-  [output screenshot](https://github.com/Gagan-rao-44/Advanced-Java/blob/main/Servlet%20Programs/CookieServlet/cookieservlet2.png)
+  [output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp6-Servlet%20Programs/CookieServlet/cookieservlet2.jpg)
 
 ### 6c.primenumber 
-->[output screenshot](https://github.com/Gagan-rao-44/Advanced-Java/blob/main/Servlet%20Programs/PrimeServlet/primenumber1.png)
+->[output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp6-Servlet%20Programs/PrimeServlet/PrimeServlet1.png)
 
-  [output screenshot](https://github.com/Gagan-rao-44/Advanced-Java/blob/main/Servlet%20Programs/PrimeServlet/primenumber2.png)
+  [output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp6-Servlet%20Programs/PrimeServlet/PrimeServlet2.png)
 
   ---
 
   ### 7a.Session Management JSP 
-  ->[output screenshot](https://github.com/Gagan-rao-44/Advanced-Java/blob/main/JSP%20Programs/sessionmanagementjsp1.png)
+  ->[output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp7-JSP%20Program/second1.png)
 
-  [output screenshot](https://github.com/Gagan-rao-44/Advanced-Java/blob/main/JSP%20Programs/sessionmanagementjsp2.png)
+  [output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp7-JSP%20Program/second2.png)
 
   ### 7b.Cookie Management JSP 
-  ->[output screenshot](https://github.com/Gagan-rao-44/Advanced-Java/blob/main/JSP%20Programs/cookie_management%20JSP/cookiemanagementjsp1.png)
-  [output screenshot](https://github.com/Gagan-rao-44/Advanced-Java/blob/main/JSP%20Programs/cookie_management%20JSP/cookiemanagementjsp2.png)
+  ->[output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp7-JSP%20Program/cookie_management%20JSP/cookiemanagement1%20(2).png)
+  [output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp7-JSP%20Program/cookie_management%20JSP/cookiemanagement2%20(2).png)
 
   ---
 
 ### SQL+JDBC Programs:
 
   ### 8a.InsertCoffee 
-  ->[output screenshot](https://github.com/Gagan-rao-44/Advanced-Java/blob/main/SQL%2BJDBC/InsertCoffee/InsertCoffee.png)
+  ->[output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp8-JDBC%20Programs/InsertCoffee/InsertCoffee.png)
 
   ### 8b.UpdateCoffee 
-  ->[output screenshot](https://github.com/Gagan-rao-44/Advanced-Java/blob/main/SQL%2BJDBC/UpdateCoffee/updatecoffee.png)
+  ->[output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp8-JDBC%20Programs/UpdateCoffee/updatecoffee.png)
 
-  ### 8c.InserEmployee 
-  ->[output screenshot](https://github.com/Gagan-rao-44/Advanced-Java/blob/main/SQL%2BJDBC/InsertEmployee/insertemployee1.png)
+  ### 8c.InsertEmployee 
+  ->[output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp8-JDBC%20Programs/InsertEmployee/insertemployee1.png)
 
-  [output screenshot](https://github.com/Gagan-rao-44/Advanced-Java/blob/main/SQL%2BJDBC/InsertEmployee/insertemployee2.png)
+  [output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp8-JDBC%20Programs/InsertEmployee/insertemployee2.png)
 
-  [output screenshot](https://github.com/Gagan-rao-44/Advanced-Java/blob/main/SQL%2BJDBC/InsertEmployee/insertemployee3.png)
+  [output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp8-JDBC%20Programs/InsertEmployee/insertemployee3.png)
 
   ### 8d.UpdateEmployee 
-  ->[output screenshot](https://github.com/Gagan-rao-44/Advanced-Java/blob/main/SQL%2BJDBC/UpdateEmployee/updateemployee1.png)
+  ->[output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp8-JDBC%20Programs/UpdateEmployee/updateemployee1.png)
 
-  [output screenshot](https://github.com/Gagan-rao-44/Advanced-Java/blob/main/SQL%2BJDBC/UpdateEmployee/updateemployee2.png)
+  [output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp8-JDBC%20Programs/UpdateEmployee/updateemployee2.png)
 
   ---
 
   ### 9a.DeleteCoffee 
-  ->[output screenshot](https://github.com/Gagan-rao-44/Advanced-Java/blob/main/SQL%2BJDBC%20Operatins/DeleteCoffee/deletecoffee.png)
+  ->[output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp9-JDBC2/DeleteCoffee/deletecoffee.png)
 
   ### 9b.QueryCoffee 
-  ->[output screenshot](https://github.com/Gagan-rao-44/Advanced-Java/blob/main/SQL%2BJDBC%20Operatins/QueryCoffee/querycoffee.png)
+  ->[output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp9-JDBC2/QueryCoffee/querycoffee.png)
 
   ### 9c.EmployeeReport 
-  ->[output screenshot](https://github.com/Gagan-rao-44/Advanced-Java/blob/main/SQL%2BJDBC%20Operatins/EmployeeReport/employeereport1.png)
+  ->[output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp9-JDBC2/EmployeeReport/viewreport1.png)
 
-  [output screenshot](https://github.com/Gagan-rao-44/Advanced-Java/blob/main/SQL%2BJDBC%20Operatins/EmployeeReport/employeereport2.png)
+  [output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp9-JDBC2/EmployeeReport/viewreport2.png)
 
   ### 9d.DeleteEmployee 
-  ->[output screenshot](https://github.com/Gagan-rao-44/Advanced-Java/blob/main/SQL%2BJDBC%20Operatins/DeleteEmployee/deleteemployee1.png)
+  ->[output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp9-JDBC2/DeleteEmployee/deleteemployee1.png)
 
-  [output screenshot](https://github.com/Gagan-rao-44/Advanced-Java/blob/main/SQL%2BJDBC%20Operatins/DeleteEmployee/deleteemployee2.png)
+  [output screenshot](https://github.com/musical3006swar/AdvanceJava/blob/main/Exp9-JDBC2/DeleteEmployee/deleteemployee2.png)
